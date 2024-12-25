@@ -37,14 +37,14 @@ Si vous avez choisi d’utiliser PyCharm, sélectionnez l’option `Select other
 ## Utilisation de GitHub
 
 GitHub est un site internet qui héberge des projets (repositories, aussi appelés repos) Git.
-Vous aurez besoin de vous créer un compte GitHub ici. Envoyez-moi ensuite votre nom d’utilisateur complet que je puisse vous ajouter en tant que collaborateur sur le repo du Dashboard.
+Vous aurez besoin de vous créer un compte GitHub ici.
 
-Pour télécharger le projet, il y a 2 solutions :
+Pour télécharger un projet, il y a 2 solutions :
 - Dans l’explorateur de fichiers, placez vous là où vous voulez mettre le fichier du projet, puis faites clique droit -> Git Bash Here.
 - Ouvrez un terminal, puis utilisez la commande cd pour vous placer là où vous voulez mettre le fichier du projet.
-Utilisez maintenant la commande `git clone https://github.com/Leroymilo/PCO_Dashboard` pour télécharger le repo du Dashboard (clique droit pour copier ou coller dans un terminal).
+Utilisez maintenant la commande `git clone <repo url>` pour télécharger le repo (clique droit pour copier ou coller dans un terminal).
 
-Vous aurez besoin de configurer votre identité avant de pouvoir agir sur des projets partagés. DAns un terminal, tilisez les commandes :
+Vous aurez besoin de configurer votre identité avant de pouvoir agir sur des projets partagés. Dans un terminal, tilisez les commandes :
 - `git config --global user.name "<nom d'utilisateur>"`
 - `git config --global user.email "<adresse mail>"`
 
